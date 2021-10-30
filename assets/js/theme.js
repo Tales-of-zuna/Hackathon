@@ -101,8 +101,8 @@ $('document').ready(function() {
   new WOW().init();
 });
 
-document.getElementById("bichih").onclick = function() {myFunction()};
-
-function myFunction() {
-  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+function speak(){
+  document.getElementById("bichih").value="boljiin";
 }
+
+var textToSpeech = document.getElementById("bichih");
