@@ -1,4 +1,17 @@
 /* Sticky Navigation */
+// import axios from 'axios'
+// const ttsUrl = 'https://api.chimege.com/v1.2/synthesize';
+// const data = {
+//   text : "Сайн байна уу",
+// }
+// axios({
+//   method: 'POST',
+//   url : ttsUrl,
+//   data: {
+//     text,
+//   }
+// })
+// .then(data => console.log(data))
 $(function() {
   
   var sticky = $('.sticky');
